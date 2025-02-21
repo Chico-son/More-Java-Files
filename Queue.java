@@ -1,4 +1,4 @@
-public class Queue<T> {
+public class Queue<T> implements Iterator<T> {
     private Node first;
     private Node second;
 
